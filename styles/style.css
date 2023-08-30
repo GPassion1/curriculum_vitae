@@ -152,6 +152,7 @@ body{
 @media (max-width: 1200px) {
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .cabecalho{
@@ -162,11 +163,16 @@ body{
         justify-content: center;
     }
 
-    .apresentacao{
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .curriculo{
+        flex-direction: column-reverse;
         padding: 5%;
     }
 
-    .apresentacao__conteudo{
+    .curriculo__info{
         width: auto;
     }
 }
